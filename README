@@ -1,0 +1,13 @@
+最近傍法とK-means法による識別
+コンパイルする場合、Jama(Javaで行列を扱うライブラリ)必須
+
+Pareco			:本体
+DMatrix			:あるクラスとして生成されたサンプルをMatrixの配列で一括管理
+Setpoint		:多次元正規分布により生成されたMatrixを一つのサンプルとして返す
+RecogCanvas		:グラフ描画
+Classifier		:最近傍法とK-means法による識別器
+Valuation		:識別結果評価(作りかけ)
+
+問題点
+①多次元正規分布の確率密度関数が1以上の値を出力することがある
+
